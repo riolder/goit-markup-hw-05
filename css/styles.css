@@ -55,6 +55,10 @@ button {
 
   color: var(--color-navy-blue);
 }
+.link {
+  color: var(--color-slate);
+  text-decoration: none;
+}
 .header-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -175,11 +179,7 @@ header {
   gap: 24px;
   padding-top: 72px;
 }
-/* text color type */
-.link {
-  color: var(--color-slate);
-  text-decoration: none;
-}
+
 .occupation {
   padding-bottom: 120px;
 }
@@ -369,6 +369,9 @@ header {
   flex-basis: calc((100% - 48px) / 3);
 }
 .link-foto:hover .cover-text {
+  transform: translateY(0);
+}
+.link-foto:focus .cover-text {
   transform: translateY(0);
 }
 .foto-cover {
